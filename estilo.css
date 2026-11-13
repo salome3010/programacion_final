@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5f8;
+    color: #49333e;
+    line-height: 1.6;
+}
+
+/* ENCABEZADO */
+header {
+    background-color: #8e4567;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #fce5ee;
+}
+
+/* NAVEGACIÓN */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd6e5;
+}
+
+/* CONTENIDO */
+main {
+    width: 85%;
+    max-width: 1100px;
+    margin: 35px auto;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+    box-shadow: 0 3px 12px rgba(142, 69, 103, 0.08);
+}
+
+section h2 {
+    color: #b6537c;
+    margin-bottom: 15px;
+}
+
+/* HABILIDADES */
+ul {
+    padding-left: 25px;
+}
+
+/* PROYECTOS */
+article {
+    background-color: #fff0f5;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-left: 5px solid #c87598;
+}
+
+article h3 {
+    color: #8e4567;
+    margin-bottom: 8px;
+}
+
+/* PIE DE PÁGINA */
+footer {
+    background-color: #8e4567;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ADAPTACIÓN A CELULARES */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    main {
+        width: 92%;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
